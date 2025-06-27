@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nav-link {
+  margin-left: 40px;
+}
+.no-link-underline a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#supportHero {
+  background-color: #2e7dd3;
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+
+}
+
+#supportHero input {
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+.link-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 10px;
+}
+.link-group a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+}
