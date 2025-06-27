@@ -1,5 +1,5 @@
 import LeftSection from "./LeftSection";
-import RightSection from "./RIghtSection";
+import RightSection from "./RightSection";
 import Universe from "./Universe";
 import Hero from "./Hero";
 
